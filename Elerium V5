@@ -1,1 +1,15 @@
+-- Loader por PlaceId
+local games = {
+    [1234567890] = "https://pastebin.com/raw/XXXXXXXX", -- Juego 1
+    [9876543210] = "https://pastebin.com/raw/YYYYYYYY", -- Juego 2
+    [5555555555] = "https://pastebin.com/raw/ZZZZZZZZ"  -- Juego 3
+}
+
+local placeId = game.PlaceId
+
+if games[placeId] then
+    loadstring(game:HttpGet(games[placeId]))()
+else
+    warn("There is no script for this game (PlaceId: " .. placeId .. ")")
+end
 
