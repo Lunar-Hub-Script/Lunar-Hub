@@ -1,7 +1,7 @@
 -- Loader por PlaceId
 local games = {
-    [1234567890] = "https://pastebin.com/raw/XXXXXXXX", -- Juego 1
-    [9876543210] = "https://pastebin.com/raw/YYYYYYYY", -- Juego 2
+    [3623096087] = "https://pastebin.com/raw/XXXXXXXX", -- Muscle Legends
+    [0000000000] = "https://pastebin.com/raw/YYYYYYYY", -- Juego 2
     [5555555555] = "https://pastebin.com/raw/ZZZZZZZZ"  -- Juego 3
 }
 
