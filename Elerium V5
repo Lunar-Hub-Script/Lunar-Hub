@@ -1,4 +1,3 @@
--- Loader por PlaceId
 local games = {
     [3623096087] = "https://protected-roblox-scripts.onrender.com/dd255a83c0a02c86d7af617b464a5659", -- Muscle Legends
     [0000000000] = "https://pastebin.com/raw/YYYYYYYY", -- Juego 2
