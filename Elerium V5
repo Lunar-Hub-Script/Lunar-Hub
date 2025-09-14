@@ -1,14 +1,1 @@
-local games = {
-    [3623096087] = "https://protected-roblox-scripts.onrender.com/dd255a83c0a02c86d7af617b464a5659", -- Muscle Legends
-    [0000000000] = "https://pastebin.com/raw/YYYYYYYY", -- Juego 2
-    [5555555555] = "https://pastebin.com/raw/ZZZZZZZZ"  -- Juego 3
-}
-
-local placeId = game.PlaceId
-
-if games[placeId] then
-    loadstring(game:HttpGet(games[placeId]))()
-else
-    warn("There is no script for this game (PlaceId: " .. placeId .. ")")
-end
-
+loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/3e8b5f8f013bec53c52326729efeaca5"))()
